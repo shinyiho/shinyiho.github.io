@@ -1,0 +1,14 @@
+.Publication {
+  background-color: gray;
+  margin: 20px;
+  width: 50vw;
+  margin: auto;
+}
+
+.yearlink {
+  display: flex;
+  justify-content: center;
+}
+.yearlink > div {
+  margin: 0px 20px;
+}

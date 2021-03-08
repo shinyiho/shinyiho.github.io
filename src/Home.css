@@ -1,0 +1,16 @@
+.Home {
+  display: flex;
+  width: 60vw;
+  height: 50vh;
+  margin: auto;
+}
+.Home > img {
+}
+.Home > h1 {
+  flex: 1;
+}
+
+.Home > footer {
+  display: flex;
+  flex-direction: row;
+}
