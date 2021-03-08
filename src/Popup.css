@@ -1,12 +1,12 @@
 .Popup {
   position: fixed;
   background-color: gray;
-  width: 60vw;
-  height: 400px;
-  top: 20vh;
-  left: 20vw;
+  width: 80vw;
+  height: 80vh;
+  top: 10vh;
+  left: 10vw;
   display: flex;
 }
 .popupR {
-  margin: 0 auto;
+  margin: 0;
 }

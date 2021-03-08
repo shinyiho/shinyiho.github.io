@@ -1,6 +1,7 @@
 import React from "react";
 import Publication from "./Publication";
 import { publicationArr } from "./publicationArr";
+import "./Publications.css";
 
 function Publications() {
   return (

@@ -1,8 +1,7 @@
 .Publication {
-  background-color: gray;
-  margin: 20px;
-  width: 50vw;
-  margin: auto;
+  border-bottom: 1px solid black;
+  width: 80vw;
+  margin: 20px auto;
 }
 
 .yearlink {

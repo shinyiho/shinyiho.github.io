@@ -2,8 +2,9 @@ import React from "react";
 import "./Popup.css";
 
 function Popup({ setshowpopup, pname, psrccode, pdemo, pdes, pgif }) {
+  // const [readytochangep, setReadytochangep] = useState(false);
   return (
-    <div className="Popup">
+    <div className="Popup" onMouseLeave={() => setshowpopup(false)}>
       <div className="popupL">
         {pgif.includes("mp4") ? (
           <video width="400px" height="300px" autoPlay>

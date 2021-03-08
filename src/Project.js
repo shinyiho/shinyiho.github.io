@@ -14,7 +14,7 @@ function Project({ pimg, pname, psrccode, pdemo, pdes, pgif }) {
     <div className="Project">
       {hover ? (
         <div className="Project_name" onClick={() => setShowpopup(true)} onMouseLeave={() => setHover(false)}>
-          name
+          {pname}
         </div>
       ) : (
         <img alt="project_img" className="Project_img" onMouseEnter={() => setHover(true)} src={pimg}></img>

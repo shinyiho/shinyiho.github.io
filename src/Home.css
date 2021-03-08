@@ -1,16 +1,21 @@
 .Home {
   display: flex;
-  width: 60vw;
-  height: 50vh;
+  width: 70vw;
+  height: 80vh;
   margin: auto;
 }
 .Home > img {
+  width: 300px;
+  height: fit-content;
+  margin: 20px 0px;
 }
-.Home > h1 {
-  flex: 1;
+.Home > p {
+  height: 50vh;
+  margin-left: 10px;
 }
-
-.Home > footer {
+footer {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
