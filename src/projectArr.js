@@ -7,9 +7,14 @@ import nyspot from "./assets/nyspot.png";
 import penbox from "./assets/penbox.png";
 import postdraw from "./assets/post-drawing.png";
 import sybb from "./assets/sybb.png";
-import chattingAppGif from "./assets/video/chatting.mp4";
-import covidTrackerGif from "./assets/video/covid.mp4";
-import bodyDetectGif from "./assets/video/demo.gif";
+import chattingAppGif from "./assets/video_trim/chatting.MOV";
+import covidTrackerGif from "./assets/video_trim/covid.MOV";
+import bodyDetectGif from "./assets/video_trim/demo.gif";
+import mealprepGif from "./assets/video_trim/mealprep.MOV";
+import nyspotGif from "./assets/video_trim/nyspot.MOV";
+import penboxGif from "./assets/video_trim/penbox.MOV";
+import postdrawingGif from "./assets/video_trim/postdrawing.MOV";
+import sybbGif from "./assets/video_trim/sybb.MOV";
 export const projectArr = [
   {
     image: bodyDetect,
@@ -41,7 +46,7 @@ export const projectArr = [
     srcCode: "https://github.com/shinyiho/post-drawing",
     demo: "https://post-drawing.herokuapp.com/",
     description: "I made this Scratch book to practice hosting file in the server.",
-    gif: "gif",
+    gif: postdrawingGif,
   },
   {
     image: logger,
@@ -57,7 +62,7 @@ export const projectArr = [
     srcCode: "https://github.com/shinyiho/sybb",
     demo: "https://shinyiho.github.io/sybb/",
     description: "description",
-    gif: "gif",
+    gif: sybbGif,
   },
   {
     image: mealprep,
@@ -65,7 +70,7 @@ export const projectArr = [
     srcCode: "https://github.com/shinyiho/meal-prep",
     demo: "https://shinyiho.github.io/meal-prep/",
     description: "Do the grocery in an efficient way.",
-    gif: "gif",
+    gif: mealprepGif,
   },
   {
     image: nyspot,
@@ -73,7 +78,7 @@ export const projectArr = [
     srcCode: "https://github.com/shinyiho/where-to-go",
     demo: "https://shinyiho.github.io/where-to-go/",
     description: "description",
-    gif: "gif",
+    gif: nyspotGif,
   },
   {
     image: penbox,
@@ -81,6 +86,6 @@ export const projectArr = [
     srcCode: "https://github.com/shinyiho/penbox",
     demo: "https://shinyiho.github.io/penbox/",
     description: "description",
-    gif: "gif",
+    gif: penboxGif,
   },
 ];

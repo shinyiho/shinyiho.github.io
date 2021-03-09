@@ -6,12 +6,12 @@ function Popup({ setshowpopup, pname, psrccode, pdemo, pdes, pgif }) {
   return (
     <div className="Popup" onMouseLeave={() => setshowpopup(false)}>
       <div className="popupL">
-        {pgif.includes("mp4") ? (
-          <video width="400px" height="300px" autoPlay>
+        {pgif.includes("MOV") ? (
+          <video width="800px" height="600px" autoPlay>
             <source src={pgif} type="video/mp4"></source>
           </video>
         ) : (
-          <img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves" width="250px" />
+          <img src={pgif} alt="this slowpoke moves" width="250px" />
         )}
       </div>
       <div className="popupR">
