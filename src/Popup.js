@@ -6,7 +6,7 @@ function Popup({ setshowpopup, pname, psrccode, pdemo, pdes, pgif }) {
   return (
     <div className="Popup" onMouseLeave={() => setshowpopup(false)}>
       <div className="popupL">
-        {pgif.includes("MOV") ? (
+        {pgif.includes("mp4") ? (
           <video width="800px" height="600px" autoPlay>
             <source src={pgif} type="video/mp4"></source>
           </video>

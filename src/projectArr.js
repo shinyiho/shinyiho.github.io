@@ -7,14 +7,14 @@ import nyspot from "./assets/nyspot.png";
 import penbox from "./assets/penbox.png";
 import postdraw from "./assets/post-drawing.png";
 import sybb from "./assets/sybb.png";
-import chattingAppGif from "./assets/video_trim/chatting.MOV";
-import covidTrackerGif from "./assets/video_trim/covid.MOV";
+import chattingAppGif from "./assets/video_trim/chatting.mp4";
+import covidTrackerGif from "./assets/video_trim/covid.mp4";
 import bodyDetectGif from "./assets/video_trim/demo.gif";
-import mealprepGif from "./assets/video_trim/mealprep.MOV";
-import nyspotGif from "./assets/video_trim/nyspot.MOV";
-import penboxGif from "./assets/video_trim/penbox.MOV";
-import postdrawingGif from "./assets/video_trim/postdrawing.MOV";
-import sybbGif from "./assets/video_trim/sybb.MOV";
+import mealprepGif from "./assets/video_trim/mealprep.mp4";
+import nyspotGif from "./assets/video_trim/nyspot.mp4";
+import penboxGif from "./assets/video_trim/penbox.mp4";
+import postdrawingGif from "./assets/video_trim/postdrawing.mp4";
+import sybbGif from "./assets/video_trim/sybb.mp4";
 export const projectArr = [
   {
     image: bodyDetect,
