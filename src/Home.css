@@ -9,6 +9,10 @@
   height: fit-content;
   margin: 20px 0px;
 }
+footer > img {
+  width: 20px;
+  height: fit-content;
+}
 .Home > p {
   height: 50vh;
   margin-left: 10px;

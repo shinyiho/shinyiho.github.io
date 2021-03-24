@@ -15,3 +15,11 @@ img {
   width: 800px;
   height: 600px;
 }
+
+.popupL > video:focus {
+  outline: none;
+}
+
+.popupL {
+  outline: none;
+}

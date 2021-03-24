@@ -8,12 +8,10 @@ function Home() {
       <div className="Home">
         <img alt="my big head" src={bighead}></img>
         <p>
-          This is shin, former Ic design engineer, now software engineer. Graduate Institute of Photonics and
-          Optoelectronics, National Taiwan University, Taipei, Taiwan Shin-Yi Ho was born in Taiwan in 1992. She
-          received the B.S. degree in electrical engineering from National Cheng Kung University, Tainan, Taiwan, in
-          2014, and the M.S. degree from the Graduate Institute of Photonics and Optoelectronics, National Taiwan
-          University, Taipei, Taiwan, in 2016. Her current research interests include the fabrication and
-          characterizations of GaN-based high-electron-mobility transistors.
+          Hi! This is Shin, a former IC design engineer, now a software engineer. Previously working for Himax
+          Technologies as a system engineer and United Microelectronics Corporation as an intern. I received the M.S.
+          degree from the Graduate Institute of Photonics and Optoelectronics, National Taiwan University. I'm
+          interested in ....
         </p>
       </div>
       <footer>

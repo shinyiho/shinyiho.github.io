@@ -7,15 +7,44 @@ import nyspot from "./assets/nyspot.png";
 import penbox from "./assets/penbox.png";
 import postdraw from "./assets/post-drawing.png";
 import sybb from "./assets/sybb.png";
+import picloadfeed from "./assets/picload.JPG";
+import ml from "./assets/ml.JPG";
+import kittycrossing from "./assets/kittycrossing.png";
 import chattingAppGif from "./assets/video_trim/chatting.mp4";
 import covidTrackerGif from "./assets/video_trim/covid.mp4";
-import bodyDetectGif from "./assets/video_trim/demo.gif";
+import bodyDetectGif from "./assets/video_trim/body-detect.mp4";
 import mealprepGif from "./assets/video_trim/mealprep.mp4";
 import nyspotGif from "./assets/video_trim/nyspot.mp4";
 import penboxGif from "./assets/video_trim/penbox.mp4";
 import postdrawingGif from "./assets/video_trim/postdrawing.mp4";
 import sybbGif from "./assets/video_trim/sybb.mp4";
+import picloadfeedGif from "./assets/video_trim/picload.MOV";
+import mlGif from "./assets/video_trim/ml.MOV";
 export const projectArr = [
+  {
+    image: kittycrossing,
+    name: "Kitty crossing",
+    srcCode: "",
+    demo: "",
+    description: "",
+    gif: "https://www.youtube.com/embed/JPZQ0dwz1C4",
+  },
+  {
+    image: picloadfeed,
+    name: "Picload Feed",
+    srcCode: "",
+    demo: "",
+    description: "",
+    gif: picloadfeedGif,
+  },
+  {
+    image: ml,
+    name: "This is your...",
+    srcCode: "",
+    demo: "",
+    description: "",
+    gif: mlGif,
+  },
   {
     image: bodyDetect,
     name: "Body Detect",
@@ -49,28 +78,12 @@ export const projectArr = [
     gif: postdrawingGif,
   },
   {
-    image: logger,
-    name: "Financial Logger",
-    srcCode: "https://github.com/shinyiho/finance-logger",
-    demo: "",
-    description: "This is a practice using Typescript!",
-    gif: "gif",
-  },
-  {
     image: sybb,
     name: "SYBB",
     srcCode: "https://github.com/shinyiho/sybb",
     demo: "https://shinyiho.github.io/sybb/",
     description: "description",
     gif: sybbGif,
-  },
-  {
-    image: mealprep,
-    name: "Meal Prep",
-    srcCode: "https://github.com/shinyiho/meal-prep",
-    demo: "https://shinyiho.github.io/meal-prep/",
-    description: "Do the grocery in an efficient way.",
-    gif: mealprepGif,
   },
   {
     image: nyspot,
@@ -87,5 +100,21 @@ export const projectArr = [
     demo: "https://shinyiho.github.io/penbox/",
     description: "description",
     gif: penboxGif,
+  },
+  {
+    image: mealprep,
+    name: "Meal Prep",
+    srcCode: "https://github.com/shinyiho/meal-prep",
+    demo: "https://shinyiho.github.io/meal-prep/",
+    description: "Do the grocery in an efficient way.",
+    gif: mealprepGif,
+  },
+  {
+    image: logger,
+    name: "Financial Logger",
+    srcCode: "https://github.com/shinyiho/finance-logger",
+    demo: "",
+    description: "This is a practice using Typescript!",
+    gif: "gif",
   },
 ];

@@ -8,7 +8,7 @@ function Publication({ coWriter, name, link, abstract, year }) {
       <div className="yearlink">
         <div>Publisher:IEEE</div>
         <div>Date of Publication:{year}</div>
-        <a href={link} target="_blank">
+        <a href={link} target="_blank" rel="noreferrer">
           Link
         </a>
       </div>
