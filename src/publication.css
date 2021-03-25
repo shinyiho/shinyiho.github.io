@@ -11,3 +11,11 @@
 .yearlink > div {
   margin: 0px 20px;
 }
+
+.yearlink > a {
+  color: black;
+}
+
+.yearlink > a:visited {
+  color: black;
+}

@@ -18,3 +18,14 @@ button:hover {
 button:focus {
   outline: none;
 }
+
+@media only screen and (max-width: 500px) {
+  button {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: bold;
+    background-color: white;
+    font-size: 15px;
+    border: none;
+    margin: 5px;
+  }
+}

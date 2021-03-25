@@ -11,7 +11,7 @@ function Home() {
           Hi! This is Shin, a former IC design engineer, now a software engineer. Previously working for Himax
           Technologies as a system engineer and United Microelectronics Corporation as an intern. I received the M.S.
           degree from the Graduate Institute of Photonics and Optoelectronics, National Taiwan University. I'm
-          interested in ....
+          interested in technology and ....
         </p>
       </div>
       <footer>
