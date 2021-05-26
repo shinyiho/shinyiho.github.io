@@ -3,14 +3,14 @@ import "./publication.css";
 function Publication({ coWriter, name, link, abstract, year }) {
   return (
     <div className="Publication">
-      <h3>{name}</h3>
+      <a href={link} target="_blank" rel="noreferrer">
+        <h3>{name}</h3>
+      </a>
+
       <div>Authors:{coWriter}</div>
-      <div className="yearlink">
+      <div className="year">
         <div>Publisher:IEEE</div>
         <div>Date of Publication:{year}</div>
-        <a href={link} target="_blank" rel="noreferrer">
-          Link
-        </a>
       </div>
       <p>{abstract}</p>
     </div>

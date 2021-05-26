@@ -4,18 +4,24 @@
   margin: 20px auto;
 }
 
-.yearlink {
+.year {
   display: flex;
   justify-content: center;
 }
-.yearlink > div {
+.year > div {
   margin: 0px 20px;
 }
 
-.yearlink > a {
+.Publication > a {
   color: black;
+  text-decoration: none;
 }
 
-.yearlink > a:visited {
+.Publication > a:visited {
   color: black;
+  text-decoration: none;
+}
+
+.Publication > a:hover {
+  color: gray;
 }
