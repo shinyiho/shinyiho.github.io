@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
+  let openCVClicked = () => {
+    const url = "https://shinyiho.github.io/cv/";
+    window.open(url, "_blank");
+  };
   return (
     <div className="Header">
       <Link to="/">
@@ -14,9 +18,7 @@ function Header() {
       <Link to="/publications">
         <button>Publications</button>
       </Link>
-      <Link to="/cv">
-        <button>C.V.</button>
-      </Link>
+      <button onClick={openCVClicked}>C.V.</button>
     </div>
   );
 }
