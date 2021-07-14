@@ -38,15 +38,16 @@ export const projectArr = [
     name: "Kitty crossing",
     srcCode: "",
     demo: "",
-    description: "",
-    gif: "https://www.youtube.com/embed/JPZQ0dwz1C4",
+    description:
+      "Built with React.js. Implemented Animal Crossing API.  Banking data and furniture position are real time hosted on Firebase, chatbot is hosted on Heroku.",
+    gif: "https://www.youtube.com/embed/JPZQ0dwz1C4?autoplay=1&mute=0&enablejsapi=1",
   },
   {
     image: picloadfeed,
     name: "Picload Feed",
     srcCode: "",
     demo: "",
-    description: "",
+    description: "Built with React.js. Images, captions and messages are hosted on Firebase.",
     gif: picloadfeedGif,
   },
   {
@@ -54,7 +55,7 @@ export const projectArr = [
     name: "This is your...",
     srcCode: "https://github.com/shinyiho/training-model-template",
     demo: "https://shinyiho.github.io/training-model-template/test",
-    description: "",
+    description: "Powered by Teachable Machine",
     gif: mlGif,
   },
   {
@@ -62,7 +63,7 @@ export const projectArr = [
     name: "Body Detect",
     srcCode: "https://github.com/shinyiho/body-detection",
     demo: "https://shinyiho.github.io/body-detection/",
-    description: "powered by posNet",
+    description: "Powered by posNet",
     gif: bodyDetectGif,
   },
   {
@@ -70,7 +71,7 @@ export const projectArr = [
     name: "Chatting App",
     srcCode: "https://github.com/shinyiho/chatting-app",
     demo: "https://reat-chatting-app.herokuapp.com/#/",
-    description: "description",
+    description: "This is a practice built with React.js using Socket.IO. Server is hosted on Heroku.",
     gif: chattingAppGif,
   },
   {
@@ -78,7 +79,7 @@ export const projectArr = [
     name: "Covid Tracker",
     srcCode: "https://github.com/shinyiho/covid-19-tracker",
     demo: "https://shinyiho.github.io/covid-19-tracker/",
-    description: "description",
+    description: "Built with React.js.",
     gif: covidTrackerGif,
   },
   {
@@ -86,7 +87,7 @@ export const projectArr = [
     name: "Dear Diary",
     srcCode: "https://github.com/shinyiho/dear-diary",
     demo: "https://dear-diary-react-client-server.herokuapp.com/",
-    description: "",
+    description: "Built with React.js. Server is hosted on Heroku with Heroku Postgres.",
     gif: deardiaryGif,
   },
   {
@@ -94,7 +95,7 @@ export const projectArr = [
     name: "SYBB",
     srcCode: "https://github.com/shinyiho/sybb",
     demo: "https://shinyiho.github.io/sybb/",
-    description: "description",
+    description: "",
     gif: sybbGif,
   },
   {
@@ -103,7 +104,7 @@ export const projectArr = [
     srcCode: "https://github.com/shinyiho/perlin-noise",
     demo: "https://shinyiho.github.io/perlin-noise/",
     description: "",
-    gif: "https://www.youtube.com/embed/DnPJIKb34xQ",
+    gif: "https://www.youtube.com/embed/DnPJIKb34xQ?autoplay=1&mute=0&enablejsapi=1",
   },
   {
     image: postdraw,
@@ -126,7 +127,7 @@ export const projectArr = [
     name: "NY Spot",
     srcCode: "https://github.com/shinyiho/where-to-go",
     demo: "https://shinyiho.github.io/where-to-go/",
-    description: "description",
+    description: "",
     gif: nyspotGif,
   },
   {
@@ -134,7 +135,7 @@ export const projectArr = [
     name: "Pen Box",
     srcCode: "https://github.com/shinyiho/penbox",
     demo: "https://shinyiho.github.io/penbox/",
-    description: "description",
+    description: "",
     gif: penboxGif,
   },
   {
@@ -151,7 +152,7 @@ export const projectArr = [
     srcCode: "https://github.com/shinyiho/collatz-conjecture",
     demo: "",
     description: "",
-    gif: "https://www.youtube.com/embed/_rYq3ksdb7g",
+    gif: "https://www.youtube.com/embed/_rYq3ksdb7g?autoplay=1&mute=1&enablejsapi=1",
   },
   {
     image: recordself,
@@ -159,7 +160,7 @@ export const projectArr = [
     srcCode: "https://github.com/shinyiho/js-30-challenge/tree/master/DAY19",
     demo: "",
     description: "",
-    gif: "https://www.youtube.com/embed/aD3-MMxXDgY",
+    gif: "https://www.youtube.com/embed/aD3-MMxXDgY?autoplay=1&mute=1&enablejsapi=1",
   },
   {
     image: logger,

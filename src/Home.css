@@ -12,10 +12,12 @@
 footer > img {
   width: 20px;
   height: fit-content;
+  margin: 5px;
 }
 .Home > p {
   margin-left: 20px;
   height: 50vh;
+  text-align: left;
 }
 footer {
   display: flex;
@@ -24,7 +26,7 @@ footer {
   justify-content: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .Home {
     width: 80vw;
     display: flex;
@@ -33,5 +35,10 @@ footer {
   }
   .Home > p {
     margin-left: 0px;
+    text-align: center;
+    font-size: small;
+  }
+  .Publication {
+    font-size: small;
   }
 }

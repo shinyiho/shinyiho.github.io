@@ -11,15 +11,7 @@ function Popup({ setshowpopup, pname, psrccode, pdemo, pdes, pgif }) {
       <h2>{pname}</h2>
       <div className="video-container">
         {pgif.includes("http") ? (
-          <iframe
-            width="100%"
-            height="100%"
-            src={pgif}
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          <iframe width="100%" height="100%" src={pgif} title="YouTube video player" frameborder="0"></iframe>
         ) : (
           <video width="100%" height="100%" autoPlay controls>
             <source src={pgif} type="video/mp4"></source>
@@ -28,13 +20,21 @@ function Popup({ setshowpopup, pname, psrccode, pdemo, pdes, pgif }) {
       </div>
       <div className="popupinfo">
         <p>{pdes}</p>
-        <a href={pdemo} target="_blank" rel="noreferrer">
-          DEMO
-        </a>
+        {pdemo ? (
+          <a href={pdemo} target="_blank" rel="noreferrer">
+            DEMO
+          </a>
+        ) : (
+          <div></div>
+        )}
         <br></br>
-        <a href={psrccode} target="_blank" rel="noreferrer">
-          Source Code
-        </a>
+        {psrccode ? (
+          <a href={psrccode} target="_blank" rel="noreferrer">
+            Source Code
+          </a>
+        ) : (
+          <div></div>
+        )}
       </div>
     </div>
   );

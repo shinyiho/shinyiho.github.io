@@ -14,14 +14,16 @@
 }
 .Popup > h2 {
   justify-self: flex-start;
+  margin-top: 0;
 }
 
 .video-container > video:focus {
   outline: none;
 }
 .video-container {
-  height: 65vh;
-  width: 70vw;
+  height: 58vh;
+  width: 60vw;
+  object-fit: contain;
 }
 
 .popupinfo > a:visited {
@@ -29,6 +31,9 @@
 }
 .popupinfo > a {
   color: white;
+}
+.popupinfo > p {
+  width: 60vw;
 }
 .closeicon {
   /* text-align: end; */

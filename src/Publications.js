@@ -7,7 +7,15 @@ function Publications() {
   return (
     <div className="Publications">
       {publicationArr.map((p, i) => (
-        <Publication key={i} name={p.name} year={p.year} coWriter={p.coWriter} abstract={p.abstract} link={p.link} />
+        <Publication
+          key={i}
+          name={p.name}
+          year={p.year}
+          coWriter={p.coWriter}
+          abstract={p.abstract}
+          link={p.link}
+          publisher={p.publisher}
+        />
       ))}
     </div>
   );
