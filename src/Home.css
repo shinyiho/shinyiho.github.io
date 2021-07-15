@@ -1,10 +1,11 @@
 .Home {
   display: flex;
-  width: 50vw;
-  height: 80vh;
+  width: 45vw;
+  height: 70vh;
   margin: auto;
 }
 .Home > img {
+  border-radius: 22px;
   margin: 15px auto;
   width: 300px;
   height: fit-content;
@@ -26,12 +27,11 @@ footer {
   justify-content: center;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1320px) {
   .Home {
     width: 80vw;
     display: flex;
     flex-direction: column;
-    height: 75vh;
   }
   .Home > p {
     margin-left: 0px;
@@ -40,5 +40,13 @@ footer {
   }
   .Publication {
     font-size: small;
+  }
+  footer {
+    display: none;
+  }
+}
+@media only screen and (max-height: 620px) {
+  footer {
+    display: none;
   }
 }

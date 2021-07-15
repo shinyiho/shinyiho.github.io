@@ -3,6 +3,7 @@ import Header from "./Header";
 import Projects from "./Projects";
 import Publications from "./Publications";
 import Home from "./Home";
+import Landingpg from "./Landingpg";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -23,8 +24,11 @@ function App() {
           <Route path="/publications">
             <Publications />
           </Route>
-          <Route path="/">
+          <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/">
+            <Landingpg />
           </Route>
         </Switch>
       </div>

@@ -9,7 +9,7 @@ function Header() {
   };
   return (
     <div className="Header">
-      <Link to="/">
+      <Link to="/home">
         <button>Home</button>
       </Link>
       <Link to="/project">
