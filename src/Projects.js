@@ -7,7 +7,7 @@ import { projectArr } from "./projectArr";
 function Projects() {
   const [showloading, setShowloading] = useState(true);
   useEffect(() => {
-    let timer1 = setTimeout(() => setShowloading(false), 1200);
+    let timer1 = setTimeout(() => setShowloading(false), 1600);
     return () => {
       clearTimeout(timer1);
     };
@@ -17,7 +17,7 @@ function Projects() {
     <div>
       {showloading ? (
         <div className="loading-page">
-          <h1>loading</h1>
+          <h1>loading...</h1>
         </div>
       ) : (
         <div></div>
