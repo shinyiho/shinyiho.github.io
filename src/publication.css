@@ -1,15 +1,18 @@
 .Publication {
-  border-bottom: 1px solid black;
-  width: 80vw;
-  margin: 20px auto;
+  border-bottom: 1px solid lightgray;
+  text-align: left;
+  width: 45vw;
+  margin: 30px auto;
+  min-width: 370px;
+  padding: 0 10px;
 }
-
-.year {
+.Publication-cont {
   display: flex;
-  justify-content: center;
 }
-.year > div {
-  margin: 0px 20px;
+img {
+  width: 20vw;
+  object-fit: contain;
+  margin-right: 30px;
 }
 
 .Publication > a {

@@ -12,7 +12,7 @@ function Publications() {
           name={p.name}
           year={p.year}
           coWriter={p.coWriter}
-          abstract={p.abstract}
+          pic={p.pic}
           link={p.link}
           publisher={p.publisher}
         />

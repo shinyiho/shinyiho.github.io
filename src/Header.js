@@ -9,13 +9,13 @@ function Header() {
   };
   return (
     <div className="Header">
-      <Link to="/home">
+      <Link to="./home">
         <button>Home</button>
       </Link>
-      <Link to="/project">
+      <Link to="./project">
         <button>Projects</button>
       </Link>
-      <Link to="/publications">
+      <Link to="./publications">
         <button>Publications</button>
       </Link>
       <button onClick={openCVClicked}>C.V.</button>
