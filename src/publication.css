@@ -28,3 +28,16 @@ img {
 .Publication > a:hover {
   color: gray;
 }
+
+@media only screen and (max-width: 400px) {
+  .Publication-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 80vw;
+    object-fit: contain;
+    margin-right: 30px;
+  }
+}

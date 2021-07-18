@@ -4,11 +4,11 @@ import Projects from "./Projects";
 import Publications from "./Publications";
 import Home from "./Home";
 import Landingpg from "./Landingpg";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div
         className="App"
         // onClick={(e) => {
@@ -32,7 +32,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
