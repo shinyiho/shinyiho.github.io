@@ -63,7 +63,7 @@ export const projectArr = [
     name: "Body Detect",
     srcCode: "https://github.com/shinyiho/body-detection",
     demo: "https://shinyiho.github.io/body-detection/",
-    description: "Powered by posNet",
+    description: "Powered by poseNet",
     gif: bodyDetectGif,
   },
   {
