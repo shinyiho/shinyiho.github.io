@@ -11,7 +11,6 @@ import picloadfeed from "./assets/picload.JPG";
 import deardiary from "./assets/deardiary.png";
 import ml from "./assets/ml.JPG";
 import recordself from "./assets/recordself.png";
-import perlinnoise from "./assets/perlinnoise.png";
 import bouncingball from "./assets/bouncingball.png";
 import kittycrossing from "./assets/kittycrossing.png";
 import collatzconjecture from "./assets/collatzconjecture.png";
@@ -28,7 +27,6 @@ import mlGif from "./assets/video_trim/ml.MOV";
 import loggerGif from "./assets/video_trim/logger.mp4";
 import bouncingballGif from "./assets/video_trim/bouncingball.mp4";
 import deardiaryGif from "./assets/video_trim/deardiary.mp4";
-// import perlinnoiseGif from "./assets/video_trim/perlinnoise.mp4";
 // import recordselfGif from "./assets/video_trim/recordself.mp4";
 // import collatzconjectureGif from "./assets/video_trim/collatzconjecture.mp4";
 
@@ -97,14 +95,6 @@ export const projectArr = [
     demo: "https://shinyiho.github.io/sybb/",
     description: "",
     gif: sybbGif,
-  },
-  {
-    image: perlinnoise,
-    name: "perlin noise",
-    srcCode: "https://github.com/shinyiho/perlin-noise",
-    demo: "https://shinyiho.github.io/perlin-noise/",
-    description: "",
-    gif: "https://www.youtube.com/embed/DnPJIKb34xQ?autoplay=1&mute=0&enablejsapi=1",
   },
   {
     image: postdraw,
