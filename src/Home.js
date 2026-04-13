@@ -16,10 +16,11 @@ function Home() {
       <div className="profile">
         <img alt="my big head" src={bighead}></img>
         <p>
-          Hi! This is Shin, a former IC design engineer, now a software engineer. Previously working for Himax
-          Technologies as a system engineer and United Microelectronics Corporation as a process engineering integration
-          intern. I received my M.S. degree in EE at National Taiwan University. I love using technology to make things
-          happen and feel most fulfilled when using my skills to do so.
+          Hi! This is Shin, a former IC design engineer, now a software engineer. Previously working at Vibrant
+          America as a software engineer, Himax Technologies as a system engineer, and United Microelectronics
+          Corporation as a process engineering integration intern. I received my M.S. degree in EE at
+          National Taiwan University. I love using technology to make things happen and feel most fulfilled when using my
+          skills to do so.
         </p>
       </div>
       <footer>
